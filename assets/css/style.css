@@ -1,8 +1,10 @@
 *, *::before, *::after {
   box-sizing: border-box;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: normal; 
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 body {
    /* so background fills entire screen*/
