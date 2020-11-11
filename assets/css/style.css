@@ -68,3 +68,19 @@ grid-template-rows: minmax(120px, auto) repeat(5, 100px);
 }
 
 /*created with tutorial from youtube (https://www.youtube.com/watch?v=j59qQ7YWLxw) for Day 2 of my #100daysofcoding challenge*/
+
+/* Media query for smaller screens */
+@media screen and (max-width: 750px) {
+  header {
+      padding-bottom: 0;
+      justify-content: center;
+      position: relative;
+  }
+
+  .calculator-grid {
+    grid-template-columns: repeat(4,93.8px);
+    grid-template-rows: minmax(120px, auto) repeat(5, 93.8px);
+    
+  }
+
+}
