@@ -9,4 +9,4 @@ You can preview the quiz live by clicking the link below:
 https://steftinsley.github.io/calculator-project/
 
 
-![alt text](TBD)
+![alt text](https://github.com/steftinsley/calculator-project/blob/master/assets/images/calculator-screenshot.png)
