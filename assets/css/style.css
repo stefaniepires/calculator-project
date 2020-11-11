@@ -1,0 +1,38 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: normal; 
+}
+
+body {
+   /* so background fills entire screen*/
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(to right, #00AAFF, #00FF6C);
+}
+
+.calculator-grid {
+display: grid;
+justify-content: center;
+align-content: center;
+/* Center vertically so fills 100% of height at all times */
+min-height: 100vh; 
+/* This creates the calculator columns; 4 columns at 100 px wide */
+grid-template-columns: repeat(4,100px);
+/* This creates the calculator rows; 
+The min/max is set bc the first row is the results row and can grow depending on how big the number is
+5 rows at 100 px wide so buttons can be exactly square*/
+grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+}
+
+.calculator-grid > button {
+  cursor: pointer;
+  font-size: 2rem;
+  border: 1px solid white;
+  outline: none;
+  background-color: rgba(255,255,255, .75);
+}
+
+.calculator-grid > button:hover {
+  background-color: rgba(255,255,255, .90);
+}
