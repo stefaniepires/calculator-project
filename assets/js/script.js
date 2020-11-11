@@ -207,3 +207,5 @@ deleteButton.addEventListener('click', button => {
 )
 
 //step 21- add UI: go to display and update how you'd like for things to be displayed 
+
+//created with tutorial from youtube (https://www.youtube.com/watch?v=j59qQ7YWLxw) for Day 2 of my #100daysofcoding challenge 
